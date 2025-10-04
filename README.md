@@ -111,12 +111,12 @@ Vous pouvez également créer des variantes de Prefab qui vous permettent de reg
 Ouvrez-le dans le Prefab Mode en cliquant sur la flèche à droite de son nom dans la scène.
 Ou en double-cliquant sur le Prefab dans la fenêtre Project.
 
-![Image d'illustration](https://docs.unity3d.com/uploads/Main/PrefabHierarchyOpenArrow.png)
+![Image d'illustration](https://learn.unity.com/_next/image?url=https%3A%2F%2Fconnect-mediagw.unity.com%2Fh1%2F20200829%2Flearn%2Fimages%2Fb9bb8293-36d2-4611-be04-9d241c979ba1_image2.png&w=640&q=75)
 
 Ce mode vous permet d'afficher et de modifier le contenu du Prefab séparément de tout autre GameObject dans votre scène. 
 Les modifications que vous effectuez dans le Prefab Mode affectent toutes les instances de ce Prefab.
 
-![Image d'illustration](https://docs.unity3d.com/uploads/Main/PrefabContextVsIsolation.png)
+![Image d'illustration](https://docs.unity3d.com/6000.2/Documentation/uploads/Main/prefabs-isolation-mode.png)
 
 En Prefab Mode, la vue Scene affiche une barre de navigation en haut. 
 L'entrée la plus à droite correspond au Prefab actuellement ouvert. 
@@ -132,7 +132,7 @@ Une variante de Prefab peut avoir n'importe quelle autre Prefab comme base, y co
 
 Les Prefab Variant sont affichées avec l'icône préfabriquée bleue décorée de flèches.
 
-![Image d'illustration](https://docs.unity3d.com/uploads/Main/PrefabsBasicAndVariant.png)
+![Image d'illustration](https://docs.unity3d.com/6000.2/Documentation/uploads/Main/prefab-variant-icon.png)
 
 Cliquez avec le bouton droit sur un Prefab dans la vue Project et sélectionner Create > Prefab Variant. 
 Cela crée une variante du Prefab sélectionné, qui ne comporte initialement aucune substitution. 
@@ -225,7 +225,7 @@ L'utilisation de Trigger Collider implique principalement les fonctions API suiv
 # Input System
 
 > [!NOTE]
-> Plus de détails dans le [manuel](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html)
+> Plus de détails dans le [manuel](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.15/manual/QuickStartGuide.html)
 
 Obtenir un Input directement à partir d'un périphérique d'entrée est rapide et pratique, mais nécessite un chemin distinct pour chaque type de périphérique.
 Cela rend également plus difficile de modifier ultérieurement le contrôle du périphérique qui déclenche un événement spécifique dans le jeu.
@@ -244,7 +244,7 @@ Pour afficher l'éditeur d'actions
 
 L'éditeur d'actions apparaît sous la forme d'une fenêtre distincte, que vous pouvez également ancrer dans l'interface  pour ne pas avoir à accéder à l'asset systématiquement.
 
-![Image d'illustration](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/images/ActionsEditorCallout.png)
+![Image d'illustration](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.15/manual/images/ActionsEditorCallout.png)
 
 > [!CAUTION]
 > Par défaut, Unity n'enregistre pas les modifications que vous effectuez dans l'éditeur d'actions lorsque vous enregistrez le projet.
