@@ -96,7 +96,7 @@ Le GameObject, ainsi que tous ses composants et enfants, deviennent un nouvel As
 
 Les Prefabs dans la fenêtre Project sont affichés avec une vue miniature du GameObject ou l'icône Prefab en forme de cube bleu en fonction de la manière dont vous avez paramétré l'affichage.
 
-![Image d'illustration](https://docs.unity3d.com/uploads/Main/PrefabsInProjectWindow1.png)
+![Image d'illustration](https://docs.unity3d.com/6000.2/Documentation/uploads/Main/prefab-workflow.png)
 
 Toutes les modifications sont automatiquement répercutées dans les instances du Prefab modifié. 
 Cela permet des changements à l'échelle du projet sans avoir à effectuer à plusieurs reprises la même modification sur chaque copie de l'élément.
