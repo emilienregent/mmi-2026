@@ -178,7 +178,7 @@ Lorsque deux Colliders entrent en contact, vous pouvez appeler des fonctions pou
 > Les événements Collider nécessitent une configuration via un script C# ; vous ne pouvez pas les configurer en utilisant uniquement l'interface utilisateur.
 
 ### Collision events
-Ces événements se produisent lorsque deux Colliders entrent en contact et qu'aucun des collisionneurs n'a la fonction Déclencheur activée.
+Ces événements se produisent lorsque deux Colliders entrent en contact et qu'aucun des collisionneurs n'a la fonction IsTrigger activée.
 
 ### Trigger events 
 Ces événements se produisent lorsque deux Colliders entrent en contact, qu'au moins un Collider a l'option IsTrigger activée et qu'au moins un Collider a un Rigidbody ou ArticulationBody.
