@@ -250,3 +250,36 @@ L'éditeur d'actions apparaît sous la forme d'une fenêtre distincte, que vous 
 > Par défaut, Unity n'enregistre pas les modifications que vous effectuez dans l'éditeur d'actions lorsque vous enregistrez le projet.
 > Pour enregistrer vos modifications, sélectionnez Save Asset dans la barre d'outils de la fenêtre.
 > Ou bien activez l'enregistrement automatique en activant la case à cocher Auto Save dans la barre d'outils.
+
+# Camera
+
+> [!NOTE]
+> Plus de détails dans le [manuel](https://docs.unity3d.com/6000.2/Documentation/Manual/CamerasOverview.html)
+
+Une scène Unity représente des GameObjects dans un espace tridimensionnel. 
+L'écran de l'utilisateur étant bidimensionnel, Unity doit capturer une vue et l'« aplatir » pour l'affichage. Il utilise pour cela des caméras.
+La caméra Unity est un GameObject qui inclut un composant Camera.
+
+> [!TIP]
+> Chaque nouvelle scène Unity vient avec une camera pour en faire le rendu. Elle est défini comme la caméra principale (MainCamera).
+> Attention si vous venez à la dupliquer ou en créer une vous-même. Il est important de n'avoir qu'une seule caméra principale.
+
+## Projection
+Active ou désactive la capacité de la caméra à simuler la perspective.
+
+### Perspective
+La caméra rendra les objets avec une perspective intacte.
+Utilisez les paramètres de Field of View pour contrôler l'angle de vue de la caméra.
+Mesuré en degrés selon l'axe spécifié dans FOV Axis.
+
+![Image d'illustration](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/Camera-Non-Ortho-FPS.jpg)
+
+### Orthographic
+La caméra rendra les objets de manière uniforme, sans aucun sens de la perspective.
+Contrôlez la zone visible par l’utilisateur sur son écran (viewport) grâce au paramètre Size. 
+
+![Image d'illustration](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/Camera-Ortho-FPS.jpg)
+
+> [!NOTE]
+> Pour aller plus loin sur les différents modes de [projection](https://docs.unity3d.com/6000.2/Documentation/Manual/2Dor3D.html).
+> Chaque mode est compatible avec des graphismes 2D ou des géométries 3D. Il est cependant important d'avoir une bonne compréhension des contraintes de chaque mode.
