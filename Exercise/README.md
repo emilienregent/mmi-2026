@@ -30,3 +30,15 @@
 2. Appuyez sur le bouton Add en haut à droite
 3. Sélectionnez le répertoire du projet
 4. Cliquez sur le bouton Open et attendez l'ouverture du projet
+
+# Consignes
+
+Plusieurs bugs se sont glissés dans le projet.
+Seuls les problèmes vus en cours font partis de l'exercice : InputSystem, Colliders, Animations, Build Profiles
+
+- Corrigez les pour atteindre la fin de chaque niveau (15pts).
+- Ajoutez une fonctionnalité supplémentaire au projet (5pts).
+- La livraison se fera sur votre fork du dépôt github.
+
+> [!TIP]
+> Les messages d'erreurs sont de bons indices pour trouver la solution de chaque problème.
