@@ -213,6 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8614260082968352223, guid: 504a5e3e09789af48917f9d6558f4ddd, type: 3}
+    - {fileID: 5952284457275759081, guid: 504a5e3e09789af48917f9d6558f4ddd, type: 3}
     m_RemovedGameObjects:
     - {fileID: 8543309703563345345, guid: 504a5e3e09789af48917f9d6558f4ddd, type: 3}
     - {fileID: 7072141617974237815, guid: 504a5e3e09789af48917f9d6558f4ddd, type: 3}
@@ -245,9 +246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e338e71efe26cae4a952610eef70a5f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemController
-  m_Event:
-    m_PersistentCalls:
-      m_Calls: []
   m_Item: {fileID: 6263020054156384091}
 --- !u!4 &5439686761873679700 stripped
 Transform:
