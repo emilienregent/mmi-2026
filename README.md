@@ -284,36 +284,4 @@ Contrôlez la zone visible par l’utilisateur sur son écran (viewport) grâce 
 > Pour aller plus loin sur les différents modes de [projection](https://docs.unity3d.com/6000.2/Documentation/Manual/2Dor3D.html).
 > Chaque mode est compatible avec des graphismes 2D ou des géométries 3D. Il est cependant important d'avoir une bonne compréhension des contraintes de chaque mode.
 
-# Animations
-## Quelques définitions
-
-### Modèle 3D
-Un modèle maillé 3D est un modèle numérique de surface qui représente numériquement un objet en 3D. Le modèle se compose de sommets(vertices), d'arêtes et d'éléments individuels(polygons).
-
-Les sommets sont utilisés comme coordonnées et les arêtes du modèle relient respectivement deux sommets voisins. Les faces (polygones) englobent les arêtes et forment ainsi la surface de l'objet.
-
-Les polygones les plus souvent utilisés sont les triangles et les quadrilatères. La composition de ces coordonnées, arêtes et polygones constitue le modèle de maillage 3D.
-
-### Rig
-Un rig est constitué d'une série d'articulations qui imitent la structure osseuse réelle et fournissent des points de pivot naturels entre les os. Le maillage du personnage est relié aux articulations par un processus appelé peinture pondérée, de sorte que les articulations et le maillage se déplacent ensemble.
-
-> [!NOTE]
-> Pour aller plus loin suivez ce [tutorial](https://learn.unity.com/tutorial/intro-to-unity-rigs#)
-
-### Animation
-Une série de transformations appliquées à chaque frame ou interpoler entre deux frames.
-
-## Animer un objet
-1. Sélectionner l'objet à animer
-2. Ouvrir l'onglet "Animation"
-3. Créer un nouvel animation clip (crée automatiquement un Animator et ajoute le composant sur l'objet)
-
-## Animator
-> [!NOTE]
-> Plus de détails dans le [manuel](https://docs.unity3d.com/Manual/class-AnimatorController.html)
-
-Un graph définissant les états possible d'un objet.
-Chaque état défini une animation à jouer.
-On définit des transitions pour passer d'un état à un autre.
-
 ![Image d'illustration](https://docs.unity3d.com/uploads/Main/MecanimAnimatorControllerWindow.png)
