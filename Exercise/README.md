@@ -42,3 +42,5 @@ Seuls les problèmes vus en cours font partis de l'exercice : InputSystem, Colli
 
 > [!TIP]
 > Les messages d'erreurs sont de bons indices pour trouver la solution de chaque problème.
+> Les messages sont explicites et vous disent exactement quoi corriger. 95% du temps, la réponse est dans le message.
+
